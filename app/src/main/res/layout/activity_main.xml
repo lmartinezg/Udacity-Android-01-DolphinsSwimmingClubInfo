@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/activity_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context="com.example.android.dolphinsswimmingclubinfo.MainActivity">
+
+    <ImageView
+        style="@style/BackgroundPicture"
+        android:src="@drawable/swimming_club"/>
+
+    <TextView
+        style="@style/TopText"
+        android:text="@string/top_text"/>
+
+    <LinearLayout style="@style/ContactTextsContainer">
+
+        <TextView
+            style="@style/ClubName"
+            android:text="@string/club_name"/>
+
+        <TextView
+            style="@style/ContactText"
+            android:drawableLeft="@drawable/ic_access_time_black_24dp"
+            android:text="@string/opening_hours"/>
+
+        <TextView
+            style="@style/ContactText"
+            android:drawableLeft="@drawable/ic_call_black_24dp"
+            android:text="@string/phone_number"/>
+
+        <TextView
+            style="@style/ContactText"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:text="@string/mail_address"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

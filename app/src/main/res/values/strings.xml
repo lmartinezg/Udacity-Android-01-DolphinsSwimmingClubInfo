@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dolphins Swimming Club Info</string>
+    <string name="top_text">Swim with us!</string>
+    <string name="opening_hours">Open from 8:30 AM to 10:00 PM</string>
+    <string name="phone_number">Phone: 555-123456</string>
+    <string name="mail_address">Mail: swus@swimming-club.com</string>
+    <string name="club_name">Dolphins Swimming Club</string>
+</resources>
